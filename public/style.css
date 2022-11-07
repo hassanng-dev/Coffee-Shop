@@ -1,0 +1,82 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background-color: rgb(210,180,140);
+  
+
+}
+
+
+
+
+.entireForm {
+  background-color: rgb(210,180,140);
+}
+
+.row {
+  background-image: url(img/coffeebackground.jpg);
+  background-size: contain;
+}
+
+img{
+  height: 200px;
+}
+
+.orders {
+  border: 2px solid black;
+  text-align: center;
+}
+
+
+.messages {
+  border: 2px solid black;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.coffeeorder {
+  border: 2px solid black;
+  
+}
+
+.entireForm {
+  margin-left: 25%;
+}
+
+.checkgreen {
+  color: red;
+  
+}
+
+.checkblack {
+  color: black;
+}
+
+
+span {
+  font-size: 20px;
+}
+
+.orders {
+  font-size: 17px;
+}
+
+.coffeeorder div {
+  text-align: left;
+  margin-left:28%;
+  margin-right: auto;
+}
+
+.coffeeorder button {
+  margin-left: 40%;
+  margin-top: 3%;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.jumbotron img {
+  height: 250px;
+  width: 260px;
+}
