@@ -1,21 +1,110 @@
 body{
-  padding-top:80px;
-  word-wrap:break-word;
-  background-color: rgb(210,180,140);
+  /* padding-top:80px;
+  word-wrap:break-word; */
+  background-color: rgb(61,12,2);
   
-
 }
 
+header h1 {
+  text-align: center;
+  color: white;
+}
 
+header img {
+  margin-left: 41%;
+  margin-right: auto;
+  height: 250px;
+}
 
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:6px;
+	border:3px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	font-style:italic;
+	padding:3px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ff8c00;
+  margin-left: 46%;
+  margin-right: auto;
+  margin-top: 1%;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.mainContainer {
+ border: 2px solid transparent;
+ display: flex;
+ flex-direction: column;
+}
 
 .entireForm {
-  background-color: rgb(210,180,140);
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 34%;
+  width: 34.5%;
 }
 
-.row {
+.coffeeOrder {
+  border: 5px solid rgb(255,140,0);
+  border-radius: 10px;
+}
+
+.coffeeOrder button {
+  margin-bottom: 2%;
+}
+
+/* .mainContainer {
   background-image: url(img/coffeebackground.jpg);
-  background-size: contain;
+  background-size: 100%;
+} */
+
+.orderBox {
+  border: 2px solid transparent;
+  margin-left: 29%;
+  width: 42.5%;
+  margin-bottom: 2%;
+}
+
+.orderSection {
+  border: 5px solid rgb(255,140,0);
+  border-radius: 10px;
+  width: 80%;
+  margin-left: 11%;
+  margin-right: auto;
+  height: 98%;
+}
+
+.orderSection span {
+  color: white;
+}
+
+.orderSection li {
+  color: white;
+}
+
+.coffeeOrder label {
+  color: rgb(255,140,0);
+}
+
+.coffeeOrder h3 {
+    color: rgb(255,140,0);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 img{
@@ -23,24 +112,15 @@ img{
 }
 
 .orders {
-  border: 2px solid black;
+  border: 2px solid transparent;
   text-align: center;
+  color: white;
 }
-
 
 .messages {
-  border: 2px solid black;
+  border: 2px solid transparent;
   text-align: center;
   list-style-position: inside;
-}
-
-.coffeeorder {
-  border: 2px solid black;
-  
-}
-
-.entireForm {
-  margin-left: 25%;
 }
 
 .checkgreen {
@@ -49,7 +129,7 @@ img{
 }
 
 .checkblack {
-  color: black;
+  color: white;
 }
 
 
@@ -61,14 +141,17 @@ span {
   font-size: 17px;
 }
 
-.coffeeorder div {
-  text-align: left;
-  margin-left:28%;
+.coffeeOrder div {
   margin-right: auto;
+  border: 1px solid black;
+  text-align: center;
 }
 
-.coffeeorder button {
-  margin-left: 40%;
+div input {
+  margin-bottom: 2%;
+}
+
+.coffeeOrder button {
   margin-top: 3%;
 }
 
