@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Coffee-Shop
 
 What I've created is a order list for a coffee shop. Customers are able to create an account and submit their coffee orders. Once the order is submitted the employees are able to look into their point of sale and see what orders need to be fulfilled. Once the order is complete they are able to hit the completed (red check-mark) button and remove the order from their list. 
@@ -14,3 +15,6 @@ How I built this project is using HTML and CSS for markup text and styling. I us
 LESSON LEARNED:
 
 The lesson I learned is the process of using Node.js, Express, and MongoDB to save information to my database. I learned more about Javascript and how powerful it is in the client and server side. I am excited to create more projects!
+=======
+
+>>>>>>> 2d24382f1d9aba63581c4ce20ae96f931fb7965d
